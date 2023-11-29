@@ -35,14 +35,14 @@ exports.config = {
   logLevel: "info",
   bail: 0,
   baseUrl: "https://glitch.com/~tony",
-  waitforTimeout: 50000,
-  connectionRetryTimeout: 120000,
+  //   waitforTimeout: 50000,
+  //   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
   framework: "mocha",
   reporters: ["spec"],
   mochaOpts: {
     ui: "bdd",
-    timeout: 60000,
+    timeout: 100000,
   },
 };
 // Code to support common capabilities
